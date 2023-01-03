@@ -1,0 +1,30 @@
+body {
+    margin: 10px;
+}
+
+/* checking presence of the attribute */
+/* a[target] {
+    color: violet;
+} */
+
+
+/* checking presence of the word in the attribute*/
+/* a[href*="google"] {
+    color: violet;
+} */
+
+/* checking if the href attribute starts with the given value */
+/* a[href^="https"] {
+    color: violet;
+} */
+
+/* checking if the href attribute ends with the given value */
+a[href$=".com"] {
+    color: violet;
+}
+
+/* we can combine multiple conditions */
+/* here we are selecting only those anchor tag with href starting with "https" and ending with ".com" */
+a[href^="https"][href$=".com"] {
+    color: skyblue;
+}
