@@ -1,0 +1,23 @@
+body {
+    margin: 10px;
+}
+
+/* This selects all the paragraph inside the products id */
+/* #products p {
+    color: orange;
+} */
+
+/* This selects paragraph which are direct child of product id */
+/* #products > p {
+    color: orange;
+} */
+
+/* This selects the paragraph that comes immidiately after the product sectionn (immidiate sibling)*/
+/* #products + p {
+    color: orange;
+} */
+
+/* This will select all paragraph(all siblings) element after the product section */
+#products ~ p {
+    color: orange;
+}
