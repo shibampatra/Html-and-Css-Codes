@@ -1,0 +1,61 @@
+body {
+    margin: 10px;
+}
+
+/* article :first-child {
+    font-size: 140%;
+    font-style: italic;
+} */
+
+/* article :first-of-type {
+    font-size: 140%;
+    font-style: italic;
+} */
+
+/* article p:first-of-type {
+    font-size: 140%;
+    font-style: italic;
+} */
+
+/* article :last-of-type {
+    font-size: 140%;
+    font-style: italic;
+} */
+
+/* article :last-child {
+    font-size: 140%;
+    font-style: italic;
+} */
+
+/* article p:last-child {
+    font-weight: bold;
+} */
+
+article :last-child {
+    font-weight: bold;
+}
+
+/* ul li:nth-child(odd) {
+    color: deeppink;
+} */
+
+/* ul li:nth-child(even) {
+    color: deeppink;
+} */
+
+
+/* selects every third item */
+ul li:nth-child(3n) {
+    color: deeppink;
+}
+
+/* To select visited hyperlink and non visited link*/
+a:visited,
+a:link{
+    color: dodgerblue;
+}
+
+/* To use hover effect */
+a:hover {
+    color: green;
+}
