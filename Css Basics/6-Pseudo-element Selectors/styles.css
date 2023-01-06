@@ -1,0 +1,30 @@
+body {
+    margin:10px;
+}
+
+
+/* Select first letter of an paragraph */
+p::first-letter {
+    font-size: 140%;
+    font-weight: bold;
+}
+
+/* Select first line of an paragraph */
+p::first-line {
+    font-weight: bold;
+}
+
+/* Change on selection */
+::selection {
+    background-color: pink;
+}
+
+p::before {
+    content:"...";
+    /* display: block; */
+}
+
+p::after {
+    content:"...";
+    display: block;
+}
