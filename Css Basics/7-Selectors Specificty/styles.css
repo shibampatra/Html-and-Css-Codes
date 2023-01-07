@@ -1,0 +1,16 @@
+
+#product {
+    color: gold;
+}
+
+.highlight {
+    color: deeppink;
+}
+
+h1 {
+    color: dodgerblue !important ;
+}
+
+/* when important keyword is there.specificity doesn't matter */
+
+/* id>class>tag */
