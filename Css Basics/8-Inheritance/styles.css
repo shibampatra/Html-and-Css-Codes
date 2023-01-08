@@ -1,0 +1,13 @@
+body {
+    margin: 10px;
+}
+
+p {
+    color: dodgerblue;
+    border:1px solid black;
+}
+
+strong {
+    color: initial;
+    border: inherit;
+}
