@@ -1,0 +1,15 @@
+body {
+    margin: 10px;
+}
+
+.box {
+    width: 200px;
+    height: 200px; 
+    /* background-color: rgb(230, 205, 16); */
+    /* background-color: rgba(230, 205, 16, 0.5); */
+
+    /* background-color: #e6cd10; */
+
+    /* background-color: hsl(53, 100%, 47%); */
+    background-color: hsla(53, 100%, 47%, 0.4);
+}
