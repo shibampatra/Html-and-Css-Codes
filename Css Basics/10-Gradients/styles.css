@@ -1,0 +1,23 @@
+body {
+    margin: 10px;
+}
+
+.box {
+    width: 600px;
+    height: 200px;
+
+    /* background: linear-gradient(yellow,violet); */
+
+    /* changing direction of the colors */
+    /* background: linear-gradient( to right, yellow,violet); */
+
+    /* background: linear-gradient( to bottom right, yellow,violet); */
+
+    /* background: linear-gradient( yellow,violet,tomato); */
+
+
+
+    /* background: radial-gradient(circle, white,gray); */
+    background: radial-gradient(circle at top left, white,gray);
+
+}
