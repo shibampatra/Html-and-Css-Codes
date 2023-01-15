@@ -1,0 +1,33 @@
+* , *::before, *::after{
+    box-sizing: border-box;
+}
+    /* * is the universal selector.It selects all element of the body. */
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+
+    /* If we add padding or border our box gonna get bigger */
+
+    /* padding: 20px;
+    border: 10px solid orange; */
+
+
+    /* The CSS box-sizing property allows us to include the padding and border in an element's total width and height. */
+
+    /* box-sizing: border-box; */
+
+    /* Here border-box include the padding and border inside the defined dimention of the box. */
+    
+    box-sizing: content-box;
+    
+    /* Here content-box include the padding and border in addition to the dimention to the box.
+    
+    -> content-box is default value of the box-sizing property.  */
+
+    
+}
+
+.box::before {
+    content: "hello";
+}

@@ -1,0 +1,25 @@
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: gold;
+
+    /*
+    For block level element the default value of display property is "block".
+    For inline element the default value of the display property is "inline".
+
+    But if we set the display property to "inline-block" then we
+    can use inline element as block element 
+        &   block element as inline element
+
+    (i.e
+        we can give inline element width and height
+        & block element can be place one beside other
+        like inline element.or block element doesn't 
+        take the whold content area.)
+    */
+    display: inline-block;
+}
+
+.box::before {
+    content: "Hello";
+}
