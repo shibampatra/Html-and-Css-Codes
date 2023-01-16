@@ -1,0 +1,12 @@
+.box {
+    border: 3px solid gold;
+    height: 200px;
+    width: 200px;
+
+    /* The default value of overflow is visible. */
+
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    /* overflow: hidden auto; */
+    
+}
