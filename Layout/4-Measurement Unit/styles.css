@@ -1,0 +1,50 @@
+
+html {
+    /* here were explicitly setting the font size of the root element or html element */
+    font-size: 62.5%;
+    /* 62.5% of 16px = 10px */
+}
+
+body {
+     padding: 10px;
+    /* width: 300px; */
+}
+
+.box {
+    /* width: 100px; */
+
+    /* 50% of the width of the parent */
+    /* width: 50%; */
+
+    /* 50% of the width of the viewport */
+    /* width: 50vw; */
+
+    /* height: 100px; */
+
+    /* 100% the height of the parent element*/
+    /* height: 100%; */
+
+    /* 100% of the height of the viewport */
+    /* height: 100vh; */
+
+
+    /* WE HAVE TWO MORE RELATIVE UNIT CALLED "em" AND "rem" WHICH ARE RELATIVE TO THE FONT SIZE. WE USE THESE UNITS IN THE SITUATIONS WHERE YOU WANNA ADJUST THE LAYOUT ACCORDING TO THE FONT SIZE. 
+    FOR EX- IF THE FONT SIZE GOT BIGGER WE WANT THE LAYOUT TO BE GET BIGGER. */
+
+
+    font-size: 20px;
+    
+    /* 10x font size fo the current element */
+    width: 10em;
+
+    /* 10x font size of the root element i.e. html element .  */
+
+    width: 10rem;
+    /*The base fontsize of the HTML element is 16px */
+
+    height: 100vh;
+
+    background-color: lightsteelblue;
+    /* -> By default the width of block level element is 
+        100% and the height is 0%  */
+}
