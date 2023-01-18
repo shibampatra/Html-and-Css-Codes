@@ -1,0 +1,33 @@
+.boxes {
+    border: 3px solid lightgrey;
+}
+
+.box {
+    width: 5rem;
+    height: 5rem;
+}
+
+.box-one {
+    background-color: gold;
+}
+
+.box-two {
+    background-color: tomato;
+    /* position: relative; 
+    left: 4rem; */
+    /* right: 4rem; */
+
+    /* top: 2rem; */
+    /* bottom: 2rem; */
+
+    /* z-index: 1; */
+    /* z-index: -1; */
+    /* by default z-index value is 0 */
+
+
+    
+}
+
+.box-three {
+    background-color: dodgerblue;
+}
