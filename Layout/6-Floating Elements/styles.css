@@ -1,0 +1,37 @@
+body {
+    margin: 10px;
+}
+
+.tweet {
+    border: 3px solid lightgray;
+}
+.avatar {
+    width: 5rem;
+    height: 5rem;
+    background-color: gold;
+    
+    float: left;
+    /* float: right; */
+    margin-right: 0.5rem;
+
+    /* -> Parent element don't see floated element */
+    
+     /* solution: */
+     /* ->we can add an empty div with class clear after the paragraph.(but this is not semantic). */
+
+     /* ->we can use pseudoelement like before and after */
+
+    
+}
+
+.clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+.clear {
+    /* clear: left; */
+    /* clear: both; */
+
+    clear: both;
+}
