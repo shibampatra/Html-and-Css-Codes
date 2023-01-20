@@ -1,0 +1,89 @@
+body {
+    /* margin: 10px; */
+}
+
+.container {
+    border: 3px solid grey;
+    display: flex;
+
+    flex-direction: row;
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */
+
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    justify-content: center;
+    /* justify-content: space-evenly; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+
+    height: 80vh;
+    /* align-items:flex-start; */
+    /* align-items: flex-end; */
+    align-items: center;
+
+
+    /* -> when we add more item in the markup(box in this case) the size of the box getting smaller to fit in one line.
+    To avoid this problem we use "flex-wrap" property */
+
+    /* -> By default "flex-wrap " is set to no-wrap */
+
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap; */
+
+
+
+    /*
+     -> The "align-content" property modifies the behavior of the flex-wrap property. It is similar to align-items, but insterad of aligning flex items, it aligns flex lines.
+
+     note: There must be multiple lines of items for    this property to have any effect!
+
+
+     Default value is stretch
+    */
+
+    /* align-content: flex-end; */
+    /* align-content: flex-start; */
+    /* align-content: space-around; */
+    /* align-content: space-between; */
+    /* align-content: stretch; */
+    /* align-content: center; */
+}
+
+.box {
+    height: 5rem;
+    width: 5rem;
+    background-color: gold;
+    margin: 1rem;
+
+    /* flex-basis: 10rem; */
+    /* flex-basis: 5rem; */
+    
+    /* flex-grow: 0; */
+    /* flex-grow: 1; */
+
+    /* flex-basis: 15rem;
+    flex-shrink: 1; */
+
+
+
+    /* "flex" is a combination of flex-basis, flex-grow and flex-shrink */
+
+    flex:1 15rem;
+
+    /* first value is flex-grow  */
+}
+
+.box-one {
+    /* align-self: flex-end; */
+    /* align-self: center; */
+    /* align-self: flex-start; */
+
+    /* flex-basis: 5rem; */
+    /* flex-grow: 0; */
+    /* flex-grow: 2; */
+
+    /* flex-shrink: 0; */
+}
+
