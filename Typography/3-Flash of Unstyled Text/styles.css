@@ -1,0 +1,47 @@
+
+@font-face {
+    font-family: 'opensans';
+    src: url('fonts/open-sans/opensans-bold-webfont.woff2') format('woff2'),
+         url('fonts/open-sans/opensans-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'opensans';
+    src: url('fonts/open-sans/opensans-regular-webfont.woff2') format('woff2'),
+         url('fonts/open-sans/opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+    /* font-display: auto; */
+
+
+    /* the browser will use a fallback font and exchange it with a custom font when downlaoded */
+    font-display: swap;
+
+    /* if the browser doesn't download the custom font in a short period, Then the fallback font is gonna use */
+    font-display: fallback;
+
+    /* this is gonna hide the text initially untill the custom font gets downloaded */
+    font-display: block;
+
+    /* With optional we are telling the browser that this font is optional and nice to have not critical. */
+    font-display: optional;
+
+}
+
+
+body {
+    margin: 10px;
+    font-family: 'opensans',Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    font-weight: normal;
+}
