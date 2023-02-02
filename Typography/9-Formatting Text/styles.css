@@ -1,0 +1,98 @@
+
+@font-face {
+    font-family: 'opensans';
+    src: url('fonts/open-sans/opensans-bold-webfont.woff2') format('woff2'),
+         url('fonts/open-sans/opensans-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'opensans';
+    src: url('fonts/open-sans/opensans-regular-webfont.woff2') format('woff2'),
+         url('fonts/open-sans/opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+    /* font-display: auto; */
+
+
+    /* the browser will use a fallback font and exchange it with a custom font when downlaoded */
+    font-display: swap;
+
+    /* if the browser doesn't download the custom font in a short period, Then the fallback font is gonna use */
+    font-display: fallback;
+
+    /* this is gonna hide the text initially untill the custom font gets downloaded */
+    font-display: block;
+
+    /* With optional we are telling the browser that this font is optional and nice to have not critical. */
+    font-display: optional;
+
+}
+
+
+body {
+    margin: 10px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    
+    font-size: 1rem;
+    /* line-height: 1.5rem; */
+    /* line-height: 2.5rem; */
+
+    line-height: 1.5;
+
+
+    /* This is use to specify space between letters */
+    /* letter-spacing: 1px; */
+
+
+    /* This is used to specify space between words */
+    /* word-spacing: 5px; */
+
+
+    direction: rtl;
+
+}
+
+h1 {
+    font-family: 'Roboto' , Arial, Helvetica, sans-serif;
+}
+
+p {
+    /* width: 50ch; */
+
+    /* text-align: left; */
+    /* text-align: center; */
+    /* text-align: right; */
+
+
+
+    /* text-indent: 1rem; */
+
+    /* text-decoration: underline; */
+    /* text-decoration: line-through; */
+
+
+    /* text-transform: lowercase; */
+    /* text-transform: uppercase; */
+    text-transform: capitalize;
+
+
+    /* white-space: nowrap;
+    border: 3px solid gold;
+    overflow: hidden;
+    text-overflow: ellipsis; */
+
+
+    /* column-count: 2;
+    column-gap: 2rem;
+
+    column-rule: 3px dotted #999; */
+    
+}
+
+h1 {
+    margin: 3rem 0 1rem;
+}
