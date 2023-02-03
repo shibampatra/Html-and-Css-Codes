@@ -1,0 +1,39 @@
+html {
+    /* font-size: 62.5%; */
+}
+
+.container {
+    margin: auto;
+    border: 3px solid gray;
+    max-width: 1140px;
+    padding: 0 5rem 0 5rem;
+}
+img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+p{ 
+    font-size: 1.5rem;
+    font-family: "Crimson Text";
+}
+
+li {
+    font-family: 'Source Sans Pro';
+}
+h1{
+    font-size: 3.052rem;
+}
+
+h2 {
+    font-size: 2.441rem;
+}
+
+h3 {
+    font-size: 1.953rem;
+}
+
+h1,h2,h3 {
+    font-family: Roboto;
+}
