@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+
+.box {
+    height:200px;
+    width: 200px; 
+    background-color: dodgerblue;
+}
+
+.box:hover {
+
+    /* transform: rotate(15deg);
+    transform: rotate(-15deg); */
+
+    /* transform: scale(1.5);
+    transform: scale(0.5); */
+
+    /* transform: skew(15deg);
+    transform: skew(-15deg); */
+
+    /* transform: translate(50px);
+    transform: translate(50px, 50px); */
+
+
+    /*WE CAN COMBINE THESE TRANSFORMATION FUNCTIONS*/
+    transform: rotate(45deg) translateX(50px);
+    /* here the order of the function matters */
+    /* transform: translateX(50px) rotate(45deg); */
+}
