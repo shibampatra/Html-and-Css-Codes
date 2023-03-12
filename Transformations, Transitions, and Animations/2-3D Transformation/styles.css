@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+
+.box {
+    height:200px;
+    width: 200px;
+    background-color: dodgerblue;
+}
+
+
+.box:hover {
+    /* transform: perspective(300px) translateZ(50px); */
+    /* transform: perspective(300px) translateZ(-50px); */
+
+
+    /* transform: perspective(300px) rotate(35deg); */
+    /* transform: perspective(300px) rotateY(35deg); */
+    /* transform: perspective(300px) rotateX(35deg); */
+
+    /* transform-origin: 0 0; */
+    /* transform-origin: 0 50%; */
+
+}
+
+.container {
+    perspective: 200px;
+}
+.container:hover .box {
+    /* transform: perspective(200px) rotateY(45deg); */
+    transform: rotateY(45deg);
+    transform-origin: 0 50%;
+}
+
+.container:hover .box-special {
+    transform: rotateX(45deg);
+}
