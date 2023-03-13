@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+
+    /* transition: transform 0.65s; */
+    /* transition: transform 1.65s; */
+
+    /* >>  the animation is gonna progress at a linear rate(this is default) */
+    /* transition: transform 0.65s linear; */
+
+    /* >>  the animation starts slowly and then progresses quickly */
+    /* transition: transform 0.65s ease-in; */
+
+    /* >>  the animation starts quickly and then slows down */
+    /* transition: transform 0.65s ease-out; */
+
+    /* >> we can design our timing function using cubic-bazier() function   */
+    /* >> for cubic bazier function we can use the internet references like [cubic-bezier.com] */
+    /* transition: transform 0.65s cubic-bezier(.23,.59,.79,.41); */
+
+    
+    /* >> we can add a fourth value for the delay */
+    /* transition: transform 0.65s linear 1s; */
+
+
+    transition: transform 0.65s, background 0.65s;
+}
+
+.box:hover {
+    transform: rotate(45deg);
+    background: dodgerblue;
+}
