@@ -1,0 +1,51 @@
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+@keyframes pop {
+    
+    0% {
+        transform: scale(1);
+    }
+
+    25% {
+        transform: scale(1.5);
+    }
+
+    50% {
+        transform: rotate(45deg);
+        background: rgba(142, 190, 237, 0.975);
+    }
+
+    100% {
+        transform: rotate(0);
+    }
+}
+
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: tomato;  
+}
+
+
+.animation-pop {
+    animation-name: pop;
+    animation-duration: 10s;
+    
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    
+    /* animation-direction: normal; */
+    /* animation-direction: reverse; */
+    animation-direction: alternate;
+    
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+
+}
