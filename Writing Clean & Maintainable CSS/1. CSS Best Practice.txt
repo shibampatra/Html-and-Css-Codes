@@ -1,0 +1,13 @@
+1. Follow a Naming Convention
+        ->Camel Case[e.g. navBar]
+        ->Pascal Case[e.g. NavBar]
+        ->nav-bar
+        ->nav_bar
+
+2. Create Logical Sections in your stylesheets
+3. Avoid Over Specific Selectors
+4. Avoid !important keyword
+5. Sort CSS Properties
+6. Take advantage of the style inheritance
+7. Extract repetative patterns
+8. Avoid repetative value (keep it dry)
